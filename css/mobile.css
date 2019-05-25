@@ -14,10 +14,21 @@
   border-bottom: #444 dotted 1px;
 }
 
-/* Home Info */
-#home-info {
-  height: 550px;
+/* Showcase */
+#showcase {
+  height: 100%;
 }
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+/* Home Info */
+/* Below is in case the button in home-info doesn't display on physical phone screen */
+/* #home-info {
+  height: 550px;
+} */
 
 #home-info .info-img {
   display: none;
@@ -33,4 +44,24 @@
   float: none;
   width: 100%;
   padding: 25px;
+}
+
+/* About Info */
+#about-info .info-right,
+#about-info .info-left {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+  border-bottom: #555 dotted 1px;
 }
